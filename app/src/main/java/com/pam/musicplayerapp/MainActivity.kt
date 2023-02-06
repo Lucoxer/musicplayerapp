@@ -82,7 +82,7 @@ fun LoginForm() {
         )
         Button(
             modifier = Modifier.fillMaxWidth()
-                .padding(start = 120.dp, end = 128.dp, bottom = 20.dp), colors = ,
+                .padding(start = 120.dp, end = 128.dp, bottom = 20.dp),
             onClick = {
                 val isAuthtenticated = doAuth(usernameInput, passwordInput)
                 if (isAuthtenticated) {
@@ -95,10 +95,7 @@ fun LoginForm() {
                 }
             }
         ) {
-            Text(
-                text = "Login",
-                fontWeight = FontWeight.Bold,
-            )
+            Text(text = "Login")
         }
     }
 }

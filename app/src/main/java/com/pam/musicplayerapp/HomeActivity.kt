@@ -258,7 +258,6 @@ fun SideButton(){
     }
 
 }
-
 @Composable
 fun PlayerSlider() {
     Column(
